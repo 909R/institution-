@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    max-width: 1250px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+
+/* --------topbar---------- */
+
+.topbar-sec{
+    margin: 100px 0;
+}
+
+.topbar-sec .topbar-parents{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+text-align: center;
+}
+
+
+
+    .topbar-sec .topbar-parents ul{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+    }
+
+    .topbar-sec .topbar-parents ul li{
+        list-style: none;
+      
+
+    }
+
+    .topbar-sec .topbar-parents ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+      
+
+
+    }
+
+    .topbar-sec .topbar-parents ul li a:hover{
+
+       
+       border-color: rgb(58, 57, 57);
+       padding:6px 15px;  
+       border-style:solid;
+        border-radius: 8px;
+        
+   
+    }
+
+
+    .topbar-sec .topbar-parents .topbar2{
+        display: flex;
+        justify-content: center;
+     
+       
+    }
+
+
+
+    /*-------------- homepage------- */
+
+
+    .homepage-section .homepage-parents{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .homepage-section h2{
+
+        background-image :linear-gradient( to right, rgba(128, 103, 240, 0.514), blue);
+
+        padding: 30px;
+        font-size: 40px;
+        color: aliceblue;
+        margin-bottom: 20px;
+        border-radius: 15px;
+
+
+    }
+
+    .homepage-section .imgg{
+        display: grid;
+        grid-template-columns: 1fr 1.57fr;
+        column-gap: 20px;
+
+    }
+    .homepage-section .imgg img{
+        width: 100%;
+        border-radius: 15px;
+
+    }
+
+    .homepage-section .login{
+        padding-left: 40px;
+    }
+
+    .homepage-section p{
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .homepage-section h1{
+        font-size: 90px;
+        font-weight: bold;
+
+        margin: 30px 0;
+
+    }
+
+
+    .homepage-section button {
+        background-image: linear-gradient( to right, rgba(128, 103, 240, 0.514), blue);
+        font-size: 16px;
+        padding: 10px 60px;
+        font-weight: bold;
+        color: white;
+        border: none;
+        border-radius: 9px;
+    }
